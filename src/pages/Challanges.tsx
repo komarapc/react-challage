@@ -2,7 +2,7 @@ import { Fragment, useState } from "react";
 
 import Helmet from "react-helmet";
 
-function App() {
+function ChallengePage() {
   const [data, setData] = useState<Array<string>>([]);
   const [showEditValues, setShowEditValues] = useState<boolean>(false);
   const [selectedIndex, setSelectedIndex] = useState<number>(0);
@@ -44,7 +44,7 @@ function App() {
                     key={index}
                     className="flex items-center justify-center my-2"
                   >
-                    <div className="w-32 h-32 p-10 border-2 border-neutral-500 dark:border-white border-dashed rounded-[20px] text-center text-4xl">
+                    <div className="card">
                       {showEditValues && selectedIndex === index ? (
                         <>
                           <input
@@ -81,10 +81,7 @@ function App() {
               </>
             ) : (
               <>
-                <div
-                  className="w-32 h-32 p-10 border-2 border-neutral-500 dark:border-white border-dashed rounded-[20px] text-center text-4xl hover:bg-neutral-300 dark:hover:bg-neutral-800 cursor-pointer"
-                  onClick={() => actions.addItems(0)}
-                >
+                <div className="card" onClick={() => actions.addItems(0)}>
                   <span>+</span>
                 </div>
               </>
@@ -95,5 +92,4 @@ function App() {
     </Fragment>
   );
 }
-
-export default App;
+export default ChallengePage;

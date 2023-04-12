@@ -1,0 +1,181 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to ReactJS",
+    "description": "This is a course on ReactJS",
+    "courses": [
+      {
+        "id": 1,
+        "title": "What is ReactJS? and Why ReactJS?"
+      },
+      {
+        "id": 2,
+        "title": "Advantages and Disadvantages of ReactJS"
+      },
+      {
+        "id": 3,
+        "title": "Getting Started with ReactJS"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "JSX",
+    "description": "Understanding more about JSX",
+    "courses": [
+      {
+        "id": 1,
+        "title": "Understanding JSX Syntax"
+      },
+      {
+        "id": 2,
+        "title": "Creating ReactJS Components"
+      },
+      {
+        "id": 3,
+        "title": "JSX Expressions and Conditional Rendering"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Components and Props",
+    "description": "Passing data between components using props",
+    "courses": [
+      {
+        "id": 1,
+        "title": "Creating and using functional and class components"
+      },
+      {
+        "id": 2,
+        "title": "Passing data between components with props"
+      },
+      {
+        "id": 3,
+        "title": "Using defaultProps and propTypes"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Hooks,State and Lifecycle",
+    "description": "Understanding state and lifecycle of components",
+    "courses": [
+      {
+        "id": 1,
+        "title": "Understanding the concept of state in React"
+      },
+      {
+        "id": 2,
+        "title": "Using setState to update state"
+      },
+      {
+        "id": 3,
+        "title": "Component lifecycle methods"
+      },
+      {
+        "id": 4,
+        "title": "Using useEffect hook to manage lifecycle methods"
+      },
+      {
+        "id": 5,
+        "title": "Using the useState hook to manage state"
+      },
+      {
+        "id": 6,
+        "title": "Using the useEffect hook to fetch data from an API"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Handling Events",
+    "description": "Handling events in ReactJS",
+    "courses": [
+      {
+        "id": 1,
+        "title": "Handling events in React"
+      },
+      {
+        "id": 2,
+        "title": "Binding event handlers"
+      },
+      {
+        "id": 3,
+        "title": "Using arrow functions for event handlers"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Forms",
+    "description": "Handling forms in ReactJS",
+    "courses": [
+      {
+        "id": 1,
+        "title": "Handling form data in React"
+      },
+      {
+        "id": 2,
+        "title": "Controlled vs uncontrolled components"
+      },
+      {
+        "id": 3,
+        "title": "Validating form input"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "React Router",
+    "description": "Using React Router for routing in ReactJS",
+    "courses": [
+      {
+        "id": 1,
+        "title": "Setting up React Router"
+      },
+      {
+        "id": 2,
+        "title": "Creating routes and nested routes"
+      },
+      {
+        "id": 3,
+        "title": "Passing props to components with Route"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Redux",
+    "description": "Using Redux for state management in ReactJS",
+    "courses": [
+      {
+        "id": 1,
+        "title": "Introduction to Redux"
+      },
+      {
+        "id": 2,
+        "title": "Setting up Redux in a React app"
+      },
+      {
+        "id": 3,
+        "title": "Creating actions and reducers"
+      },
+      {
+        "id": 4,
+        "title": "Connecting components to Redux store"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Deployment",
+    "description": "Deploying ReactJS apps to production",
+    "courses": [
+      {
+        "id": 1,
+        "title": "Deploying to Vercel"
+      }
+    ]
+  }
+]
